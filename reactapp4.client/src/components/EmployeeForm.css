@@ -1,0 +1,55 @@
+/* EmployeeForm.css */
+.employee-form {
+    padding: 20px;
+    background: white; /* Светлый фон */
+    border-radius: 5px;
+    
+    position: relative; /* Для позиционирования кнопки */
+}
+
+    .employee-form h2 {
+        margin-bottom: 15px; /* Отступ снизу */
+    }
+
+    .employee-form .back-button {
+        position: absolute; /* Абсолютное позиционирование */
+        top: 10px; /* Отступ сверху */
+        left: 10px; /* Отступ слева */
+        background-color: #6c757d; /* Серый фон кнопки */
+        color: white;
+        padding: 8px 12px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .employee-form .back-button:hover {
+            background-color: #5a6268; /* Темно-серый фон кнопки при наведении */
+        }
+
+    .employee-form label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+
+    .employee-form input,
+    .employee-form select {
+        width: calc(100% - 2px);
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .employee-form button {
+        background-color: #007bff; /* Синий фон кнопки */
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .employee-form button:hover {
+            background-color: #0056b3; /* Темно-синий фон кнопки при наведении */
+        }

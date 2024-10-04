@@ -1,15 +1,13 @@
 ﻿import React from 'react';
 import './Menu.css';
 
-const Menu = () => {
+const Menu = ({ onButtonClick }) => {
     return (
         <div className="menu">
-            <h1>Главное меню</h1>
+            <h1>Выбор пользователя</h1>
             <div className="menu-buttons">
-                <button className="menu-btn">Кнопка 1</button>
-                <button className="menu-btn">Кнопка 2</button>
-                <button className="menu-btn">Кнопка 3</button>
-                <button className="menu-btn">Кнопка 4</button>
+                <button className="menu-btn" onClick={() => onButtonClick(2)}>Сотрудник</button>
+                <button className="menu-btn" onClick={() => onButtonClick(3)}>Координатор</button>
             </div>
         </div>
     );

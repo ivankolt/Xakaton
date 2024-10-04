@@ -1,25 +1,22 @@
-﻿import { useState } from 'react';
+﻿import React, { useState } from 'react';
 import Header from './components/Header';
 import PopupMenu from './components/PopupMenu';
 import TablePage from './components/TablePage';
-import MapPage from './components/MapPage';
+import EmployeeForm from './components/EmployeeForm';
+import CoordinatorForm from './components/CoordinatorForm';
 import './App.css';
+import Menu from './components/Menu';
 
 const App = () => {
     const [showPopup, setShowPopup] = useState(false);
-    const [showTable, setShowTable] = useState(false);
-    const [showMap, setShowMap] = useState(false);
-    const [start, setStart] = useState('');
-    const [destinations, setDestinations] = useState(['']);
-    const [orderName, setOrderName] = useState('');
-    const [vehicle, setVehicle] = useState('');
-    const [cost, setCost] = useState('');
-    const [companyName, setCompanyName] = useState('');
-    const [phone, setPhone] = useState('');
-    const [components, setComponents] = useState('');
-    const [addressFrom, setAddressFrom] = useState('');
-    const [deadline, setDeadline] = useState('');
-    const [error, setError] = useState('');
+    const [currentForm, setCurrentForm] = useState(null); // Новое состояние для текущей формы
+    const [applications, setApplications] = useState([]); // Хранение заявок
+
+    // Функция для добавления новой заявки
+    const addApplication = (application) => {
+        setApplications(prev => [...prev, application]);
+    };
+
 
     const togglePopup = () => {
         setShowPopup(!showPopup);
@@ -31,107 +28,32 @@ const App = () => {
 
     const handleButtonClick = (buttonNumber) => {
         if (buttonNumber === 1) {
-            setShowTable(true);
-            setShowMap(false);
+            setCurrentForm('table'); // Показать таблицу
+        } else if (buttonNumber === 2) {
+            setCurrentForm('employee'); // Показать форму сотрудника
+        } else if (buttonNumber === 3) {
+            setCurrentForm('coordinator'); // Показать форму координатора
+        } else if (buttonNumber === 4) {
+            setCurrentForm('menu'); // Показать форму выбора пользователя
         }
-        closePopup();
-    };
-
-    const handleDestinationChange = (index, value) => {
-        const newDestinations = [...destinations];
-        newDestinations[index] = value;
-        setDestinations(newDestinations);
-    };
-
-    const addDestination = () => {
-        setDestinations([...destinations, '']);
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setError('');
-
-        if (!orderName || !vehicle || !cost || !companyName || !phone || !components || !addressFrom || !deadline) {
-            setError('Пожалуйста, заполните все поля.');
-            return;
-        }
-
-        // Set the start and multiple destinations
-        setStart(addressFrom.split(',').map(Number));
-        setShowMap(true);
+        closePopup(); // Закрываем поп-ап после выбора
     };
 
     return (
         <div className="App">
-            <Header onMenuClick={togglePopup} />
+            <Header onClose={closePopup} onMenuClick={togglePopup} />
             {showPopup && <PopupMenu onClose={closePopup} onButtonClick={handleButtonClick} />}
-            {showMap ? (
-                <MapPage start={start} end={destinations.map(dest => dest.split(',').map(Number))} />
-            ) : showTable ? (
-                <TablePage />
-            ) : (
-                <div>
-                    <h2>Добавить заказ</h2>
-                    {error && <p className="error">{error}</p>}
-                    <form onSubmit={handleSubmit}>
-                        <label>
-                            Название заказа:
-                            <input type="text" value={orderName} onChange={(e) => setOrderName(e.target.value)} required />
-                        </label>
-                        <label>
-                            Машина:
-                            <select value={vehicle} onChange={(e) => setVehicle(e.target.value)} required>
-                                <option value="">Выберите машину</option>
-                                <option value="Грузовик">Грузовик</option>
-                                <option value="Развозчик">Развозчик</option>
-                                <option value="Минивэн">Минивэн</option>
-                            </select>
-                        </label>
-                        <label>
-                            Стоимость:
-                            <input type="number" value={cost} onChange={(e) => setCost(e.target.value)} required min="0" />
-                        </label>
-                        <label>
-                            Название компании:
-                            <input type="text" value={companyName} onChange={(e) => setCompanyName(e.target.value)} required />
-                        </label>
-                        <label>
-                            Телефон:
-                            <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} required />
-                        </label>
-                        <label>
-                            Комплектующие:
-                            <select value={components} onChange={(e) => setComponents(e.target.value)} required>
-                                <option value="">Выберите комплектующие</option>
-                                <option value="Комплект 1">Комплект 1</option>
-                                <option value="Комплект 2">Комплект 2</option>
-                                <option value="Комплект 3">Комплект 3</option>
-                            </select>
-                        </label>
-                        <label>
-                            Адрес (откуда):
-                            <input type="text" value={addressFrom} onChange={(e) => setAddressFrom(e.target.value)} required />
-                        </label>
-                        <label>Адрес (прибытие):</label>
-                        {destinations.map((destination, index) => (
-                            <input
-                                key={index}
-                                type="text"
-                                value={destination}
-                                onChange={(e) => handleDestinationChange(index, e.target.value)}
-                                placeholder={`Точка прибытия ${index + 1}`}
-                                required
-                            />
-                        ))}
-                        <button type="button" onClick={addDestination}>Добавить точку прибытия</button>
-                        <label>
-                            Срок:
-                            <input type="date" value={deadline} onChange={(e) => setDeadline(e.target.value)} required />
-                        </label>
-                        <button type="submit">Добавить заказ</button>
-                    </form>
-                </div>
-            )}
+
+            {currentForm === 'table' && <TablePage />}
+            {currentForm === 'coordinator' && <CoordinatorForm applications={applications} onBack={() => setCurrentForm(null)} />}
+            {currentForm === 'employee' && <EmployeeForm addApplication={addApplication} onBack={() => setCurrentForm(null)} />}
+
+
+
+            {currentForm === 'menu' && <Menu onButtonClick={handleButtonClick} />}
+            {!currentForm && !showPopup && <Menu onButtonClick={handleButtonClick} />} {/* Отображаем выбор пользователя */}
+
+
         </div>
     );
 };

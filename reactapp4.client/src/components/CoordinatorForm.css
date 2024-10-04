@@ -1,0 +1,47 @@
+/* CoordinatorForm.css */
+.coordinator-form {
+    padding: 20px;
+   
+    border-radius: 5px;
+   
+}
+
+.coordinator-form h2 {
+    margin-bottom: 15px; /* Отступ снизу */
+}
+
+.coordinator-form table {
+    width: 100%;
+    border-collapse: collapse; /* Убираем двойные границы */
+}
+
+.coordinator-form th, .coordinator-form td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.coordinator-form th {
+    background-color: #007bff; /* Синий фон заголовков */
+    color: white; /* Цвет текста заголовков */
+}
+
+.coordinator-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.coordinator-form button {
+    background-color: #007bff; /* Синий фон кнопки */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.coordinator-form button:hover {
+    background-color: #0056b3; /* Темно-синий фон кнопки при наведении */
+}

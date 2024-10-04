@@ -1,0 +1,197 @@
+{
+  "Warehouses": [
+    {
+      "id": "Warehouses1",
+      "warehouse_coordinates": "Москва",
+      "time_zone_relative_to_chelyabinsk": -2
+    },
+    {
+      "id": "Warehouses2",
+      "warehouse_coordinates": "Санкт-Петербург",
+      "time_zone_relative_to_chelyabinsk": -2
+    },
+    {
+      "id": "Warehouses3",
+      "warehouse_coordinates": "Ростов-на-Дону",
+      "time_zone_relative_to_chelyabinsk": 2
+    },
+    {
+      "id": "Warehouses4",
+      "warehouse_coordinates": "Пятигорск",
+      "time_zone_relative_to_chelyabinsk": 2
+    },
+    {
+      "id": "Warehouses5",
+      "warehouse_coordinates": "Нижний Новгород",
+      "time_zone_relative_to_chelyabinsk": 2
+    },
+    {
+      "id": "Warehouses6",
+      "warehouse_coordinates": "Екатеринбург",
+      "time_zone_relative_to_chelyabinsk": 0
+    },
+    {
+      "id": "Warehouses7",
+      "warehouse_coordinates": "Новосибирск",
+      "time_zone_relative_to_chelyabinsk": 2
+    },
+    {
+      "id": "Warehouses8",
+      "warehouse_coordinates": "Владивосток",
+      "time_zone_relative_to_chelyabinsk": 5
+    }
+  ],
+  "components": [
+    {
+      "id": "component1",
+      "name": "Драйверы сервомоторов",
+      "volume": 0.2,
+      "weight": 10.8,
+      "deliveryTime": 10,
+      "warehouse_id": "Warehouses1"
+    },
+    {
+      "id": "component2",
+      "name": "Платы, микросхемы",
+      "volume": 0.1,
+      "weight": 0.018,
+      "deliveryTime": 45,
+      "warehouse_id": "Warehouses2"
+    },
+    {
+      "id": "component3",
+      "name": "Вставка",
+      "volume": 0.001,
+      "weight": 0.01,
+      "deliveryTime": 15,
+      "warehouse_id": "Warehouses3"
+    },
+    {
+      "id": "component4",
+      "name": "Манжеты",
+      "volume": 0.002,
+      "weight": 0.354,
+      "deliveryTime": 15,
+      "warehouse_id": "Warehouses3"
+    },
+    {
+      "id": "component5",
+      "name": "Блоки (контакт, плата)",
+      "volume": 0.003,
+      "weight": 0.002,
+      "deliveryTime": 30,
+      "warehouse_id": "Warehouses4"
+    },
+    {
+      "id": "component6",
+      "name": "Шайбы",
+      "volume": 0.001,
+      "weight": 0.738,
+      "deliveryTime": 35,
+      "warehouse_id": "Warehouses3"
+    },
+    {
+      "id": "component7",
+      "name": "Подшипники",
+      "volume": 0.005,
+      "weight": 2.5,
+      "deliveryTime": 25,
+      "warehouse_id": "Warehouses5"
+    },
+    {
+      "id": "component8",
+      "name": "Проводка",
+      "volume": 0.1,
+      "weight": 36.806,
+      "deliveryTime": 20,
+      "warehouse_id": "Warehouses2"
+    },
+    {
+      "id": "component9",
+      "name": "Ремни",
+      "volume": 0.02,
+      "weight": 0.015,
+      "deliveryTime": 10,
+      "warehouse_id": "Warehouses7"
+    },
+    {
+      "id": "component10",
+      "name": "Винты",
+      "volume": 0.001,
+      "weight": 0.223,
+      "deliveryTime": 40,
+      "warehouse_id": "Warehouses5"
+    },
+    {
+      "id": "component11",
+      "name": "Разъемы",
+      "volume": 0.002,
+      "weight": 0.111,
+      "deliveryTime": 40,
+      "warehouse_id": "Warehouses2"
+    },
+    {
+      "id": "component12",
+      "name": "Блоки питания",
+      "volume": 0.01,
+      "weight": 3.15,
+      "deliveryTime": 10,
+      "warehouse_id": "Warehouses4"
+    },
+    {
+      "id": "component13",
+      "name": "Редукторы",
+      "volume": 0.02,
+      "weight": 10.5,
+      "deliveryTime": 25,
+      "warehouse_id": "Warehouses6"
+    },
+    {
+      "id": "component14",
+      "name": "Серво-моторы",
+      "volume": 0.03,
+      "weight": 0.6,
+      "deliveryTime": 45,
+      "warehouse_id": "Warehouses1"
+    },
+    {
+      "id": "component15",
+      "name": "Резисторы, конденсаторы",
+      "volume": 0.01,
+      "weight": 0.022,
+      "deliveryTime": 15,
+      "warehouse_id": "Warehouses8"
+    },
+    {
+      "id": "component16",
+      "name": "Фитинги",
+      "volume": 0.005,
+      "weight": 0.75,
+      "deliveryTime": 15,
+      "warehouse_id": "Warehouses5"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "vehicle1",
+      "type": "Транспортное средство 1",
+      "weightLimit": 1500,
+      "volumeLimit": 18,
+      "status": "На базе"
+    },
+    {
+      "id": "vehicle2",
+      "type": "Транспортное средство 2",
+      "weightLimit": 3000,
+      "volumeLimit": 25,
+      "status": "На базе"
+    },
+    {
+      "id": "vehicle3",
+      "type": "Транспортное средство 3",
+      "weightLimit": 700,
+      "volumeLimit": 4,
+      "status": "На базе"
+    }
+  ]
+}
