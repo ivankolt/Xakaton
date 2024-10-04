@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\employeeform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\employeeform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\employeeform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\coordinatorform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\coordinatorform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\employeeform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\employeeform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -102,7 +102,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RouteController.cs",
               "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\RouteController.cs",
               "RelativeDocumentMoniker": "ReactApp4.Server\\RouteController.cs",
@@ -110,12 +110,11 @@
               "RelativeToolTip": "ReactApp4.Server\\RouteController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T13:48:15.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T13:48:15.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DB.json",
               "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\DB.json",
               "RelativeDocumentMoniker": "reactapp4.client\\src\\DB.json",
@@ -123,12 +122,11 @@
               "RelativeToolTip": "reactapp4.client\\src\\DB.json",
               "ViewState": "AgIAABAAAAAAAAAAAAAuwLEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-04T12:46:07.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T12:46:07.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CoordinatorForm.css",
               "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\CoordinatorForm.css",
               "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\CoordinatorForm.css",
@@ -136,12 +134,11 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\CoordinatorForm.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T11:09:12.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T11:09:12.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "EmployeeForm.css",
               "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\EmployeeForm.css",
               "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\EmployeeForm.css",
@@ -154,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CoordinatorForm.jsx",
               "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\CoordinatorForm.jsx",
               "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\CoordinatorForm.jsx",
@@ -162,8 +159,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\CoordinatorForm.jsx",
               "ViewState": "AgIAAHsAAAAAAAAAAAAIwJsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T11:06:49.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T11:06:49.103Z"
             },
             {
               "$type": "Document",
@@ -173,7 +169,7 @@
               "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\EmployeeForm.jsx",
               "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\EmployeeForm.jsx",
               "RelativeToolTip": "reactapp4.client\\src\\components\\EmployeeForm.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwCAAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-10-04T11:06:27.405Z",
               "EditorCaption": ""
@@ -188,8 +184,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\main.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T10:50:48.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T10:50:48.156Z"
             },
             {
               "$type": "Document",
@@ -201,8 +196,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\index.css",
               "ViewState": "AgIAABQAAAAAAAAAAAAUwB4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T10:50:44.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T10:50:44.803Z"
             },
             {
               "$type": "Document",
@@ -214,8 +208,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\App.css",
               "ViewState": "AgIAAGQAAAAAAAAAAAAAAHwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T07:14:07.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T07:14:07.671Z"
             },
             {
               "$type": "Document",
@@ -227,8 +220,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\TablePage.css",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T10:50:31.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T10:50:31.81Z"
             },
             {
               "$type": "Document",
@@ -240,18 +232,17 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\PopupMenu.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T10:50:28.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T10:50:28.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "reactapp4.client\\src\\App.jsx",
               "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\App.jsx",
               "RelativeToolTip": "reactapp4.client\\src\\App.jsx",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-10-04T07:14:07.898Z",
               "EditorCaption": ""
@@ -266,12 +257,11 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\PopupMenu.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T10:50:25.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T10:50:25.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Menu.jsx",
               "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\Menu.jsx",
               "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\Menu.jsx",
@@ -279,8 +269,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\Menu.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T10:45:18.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T10:45:18.637Z"
             },
             {
               "$type": "Document",
@@ -292,8 +281,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\Menu.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T10:45:09.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T10:45:09.74Z"
             },
             {
               "$type": "Document",
@@ -305,8 +293,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\Header.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T10:40:22.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T10:40:22.553Z"
             },
             {
               "$type": "Document",
@@ -318,8 +305,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\MapComponent.jsx",
               "ViewState": "AgIAABIAAAAAAAAAAADwvzYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T07:13:52.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T07:13:52.072Z"
             },
             {
               "$type": "Document",
@@ -331,8 +317,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\MapApp.jsx",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T07:12:47.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T07:12:47.882Z"
             },
             {
               "$type": "Document",
@@ -344,8 +329,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\MapPage.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T07:08:43.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T07:08:43.65Z"
             },
             {
               "$type": "Document",
@@ -357,8 +341,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\TablePage.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T07:04:46.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T07:04:46.448Z"
             },
             {
               "$type": "Document",
@@ -370,8 +353,7 @@
               "RelativeToolTip": "reactapp4.client\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-04T06:48:33.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T06:48:33.966Z"
             },
             {
               "$type": "Document",
@@ -383,8 +365,7 @@
               "RelativeToolTip": "reactapp4.client\\src\\components\\Header.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T10:40:23.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T10:40:23.345Z"
             }
           ]
         }
