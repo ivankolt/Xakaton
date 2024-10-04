@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import  { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 
 const MapComponent = ({ start, end }) => {
@@ -10,24 +10,41 @@ const MapComponent = ({ start, end }) => {
 
         if (ymaps && mapRef.current) {
             ymaps.ready(() => {
-                // Очистка карты при новом рендеринге
                 if (mapInstance.current) {
-                    mapInstance.current.destroy(); // Уничтожаем предыдущую карту
+                    mapInstance.current.destroy();
                 }
 
-                mapInstance.current = new ymaps.Map(mapRef.current, {
-                    center: [(start[0] + end[0]) / 2, (start[1] + end[1]) / 2],
+                const myMap = new ymaps.Map(mapRef.current, {
+                    center: start, // Center on start point
                     zoom: 10,
                 });
 
+                // Generate multi-route with start and endpoints
+                const referencePoints = [start, ...end]; // Taking into account multiple endpoints
                 const multiRoute = new ymaps.multiRouter.MultiRoute({
-                    referencePoints: [start, end],
+                    referencePoints,
                     params: {
                         results: 1,
                     },
                 });
 
-                mapInstance.current.geoObjects.add(multiRoute);
+                // Add the route to the map
+                myMap.geoObjects.add(multiRoute);
+
+                // Show start and end point labels
+                const points = multiRoute.getWayPoints();
+                points.options.set('preset', 'islands#redStretchyIcon');
+                points.get(0).properties.set('iconContent', 'Точка отправления'); // Starting point
+                points.get(points.getLength() - 1).properties.set('iconContent', 'Точка прибытия'); // Last destination
+
+                // Handle the route calculation (distance and duration)
+                multiRoute.model.events.add('requestsuccess', () => {
+                    const activeRoute = multiRoute.getActiveRoute();
+                    const distance = activeRoute.properties.get('metaDataProperty').geoObjects.get(0).properties.get('distance');
+                    const duration = activeRoute.properties.get('metaDataProperty').geoObjects.get(0).properties.get('duration');
+
+                    alert(`Длина маршрута: ${distance} м, Время в пути: ${duration} мин.`);
+                });
             });
         }
     }, [start, end]);

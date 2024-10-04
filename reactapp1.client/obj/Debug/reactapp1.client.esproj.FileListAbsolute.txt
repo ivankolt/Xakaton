@@ -1,1 +1,2 @@
 C:\Users\RobotComp.ru\source\repos\ReactApp1\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\Xakaton\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "/i00qmPL627voCKlgW8puB8cu5qgcdDI9jMDvsren1Y=",
+  "Hash": "M5liN0mVSwYOJNKCb13nWhFCVjr0XJY+cs5oB28R6Io=",
   "Source": "ReactApp1.Server",
   "BasePath": "_content/ReactApp1.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp1\\reactapp1.client\\reactapp1.client.esproj",
+      "Identity": "C:\\Users\\User\\source\\repos\\Xakaton\\reactapp1.client\\reactapp1.client.esproj",
       "Version": 2,
       "Source": "reactapp1.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
@@ -19,5 +19,6 @@
     }
   ],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

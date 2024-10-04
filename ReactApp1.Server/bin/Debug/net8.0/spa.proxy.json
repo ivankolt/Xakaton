@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp1\\ReactApp1.Server\\..\\reactapp1.client",
+"WorkingDirectory": "C:\\Users\\User\\source\\repos\\Xakaton\\ReactApp1.Server\\..\\reactapp1.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
