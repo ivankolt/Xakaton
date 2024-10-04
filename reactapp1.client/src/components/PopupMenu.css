@@ -1,0 +1,28 @@
+/* components/PopupMenu.css */
+
+.popup-menu {
+    position: absolute;
+    top: 50px; /* Позиция ниже заголовка */
+    right: 10px; /* Позиция от правого края */
+    background-color: white; /* Белый фон */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Тень для всплывающего меню */
+    padding: 10px;
+    border-radius: 5px; /* Закругленные углы */
+    z-index: 1000; /* Чтобы отображалось выше остальных элементов */
+}
+
+.popup-btn {
+    display: block; /* Каждая кнопка занимает отдельную строку */
+    margin: 5px 0; /* Отступы между кнопками */
+    padding: 10px; /* Внутренние отступы */
+    background-color: #007bff; /* Цвет фона кнопок */
+    color: white; /* Цвет текста кнопок */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Закругленные углы */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s; /* Плавный переход */
+}
+
+    .popup-btn:hover {
+        background-color: #0056b3; /* Цвет фона кнопки при наведении */
+    }

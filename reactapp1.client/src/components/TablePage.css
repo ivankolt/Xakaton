@@ -1,0 +1,41 @@
+.table-page {
+    padding: 20px;
+    overflow-x: auto; /* Горизонтальная прокрутка для таблицы */
+    overflow-y: auto; /* Вертикальная прокрутка, если необходимо */
+
+}
+
+table {
+    width: 100%; /* Удерживает таблицу на ширину контейнера */
+    border-collapse: collapse;
+}
+/* Стиль для заголовка */
+h2 {
+    text-align: center; /* Центрируем заголовок таблицы */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+th {
+    background-color: #007bff; /* Цвет фона для заголовка таблицы */
+    color: white; /* Цвет текста заголовка */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Цвет фона для четных строк */
+}
+
+tr:hover {
+    background-color: #d1e7dd; /* Цвет фона при наведении на строку */
+}
+
+@media (max-width: 600px) {
+    th, td {
+        font-size: 12px; /* Уменьшение размера шрифта на мобильных устройствах */
+    }
+}

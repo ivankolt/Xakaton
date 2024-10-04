@@ -1,0 +1,57 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; /* Общий шрифт */
+    line-height: 1.5; /* Высота строки */
+    font-weight: 400; /* Вес шрифта */
+    color-scheme: light dark; /* Поддержка темы */
+    color: #212529; /* Цвет текста (темно-серый) */
+    background-color: #ffffff; /* Фоновый цвет (белый) */
+    font-synthesis: none; /* Запрещение успеха шрифтов */
+    text-rendering: optimizeLegibility; /* Для улучшенной читаемости */
+    -webkit-font-smoothing: antialiased; /* Для сглаживания шрифтов */
+    -moz-osx-font-smoothing: grayscale; /* Для сглаживания шрифтов в macOS */
+}
+
+/* Стили для ссылок */
+a {
+    font-weight: 500;
+    color: #007bff; /* Цвет ссылки (синий) */
+    text-decoration: inherit; /* Убираем подчеркивание */
+}
+
+    /* Стили для ссылок при наведении */
+    a:hover {
+        color: #0056b3; /* Цвет ссылки при наведении (темно-синий) */
+    }
+
+/* Основные стили для кнопок */
+button {
+    border-radius: 8px; /* Закругление углов */
+    border: 1px solid transparent; /* Убираем обводку */
+    padding: 0.6em 1.2em; /* Отступы кнопки */
+    font-size: 1em; /* Размер шрифта */
+    font-weight: 500; /* Вес шрифта */
+    font-family: inherit; /* Наследуем шрифт */
+    background-color: #007bff; /* Цвет фона кнопки (синий) */
+    color: white; /* Цвет текста кнопки (белый) */
+    cursor: pointer; /* Курсор при наведении */
+    transition: border-color 0.25s; /* Плавный переход */
+}
+
+    /* Стили для кнопки при наведении */
+    button:hover {
+        border-color: #0056b3; /* Цвет обводки кнопки при наведении (темно-синий) */
+    }
+
+    /* Стили для кнопки при фокусе */
+    button:focus,
+    button:focus-visible {
+        outline: 4px auto -webkit-focus-ring-color; /* Обводка кнопки при фокусе */
+    }
+
+/* Стили для светлой темы для медиапредпочтений */
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #212529; /* Темный текст */
+        background-color: #ffffff; /* Белый фон */
+    }
+}

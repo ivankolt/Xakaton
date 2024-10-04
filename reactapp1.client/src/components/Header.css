@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+    height: 30px; /* Занять всю ширину экрана */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 0 5px 5px; /* Скругление только снизу */
+    position: absolute; /* Зафиксировать шапку вверху */
+    top: 0; /* Привязка к верхней части */
+    left: 0; /* Привязка к левой стороне */
+}
+h1{
+    padding: 20px;
+}
+.menu-button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:20px;
+    
+}
+
+    .menu-button:hover {
+        background-color: #e9ecef;
+    }
