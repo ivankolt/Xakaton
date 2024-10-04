@@ -1,6 +1,5 @@
-﻿import React, { useState } from 'react';
+﻿import { useState } from 'react';
 import Header from './components/Header';
-import Menu from './components/Menu';
 import PopupMenu from './components/PopupMenu';
 import TablePage from './components/TablePage';
 import MapPage from './components/MapPage';
@@ -11,7 +10,7 @@ const App = () => {
     const [showTable, setShowTable] = useState(false);
     const [showMap, setShowMap] = useState(false);
     const [start, setStart] = useState('');
-    const [end, setEnd] = useState('');
+    const [destinations, setDestinations] = useState(['']);
     const [orderName, setOrderName] = useState('');
     const [vehicle, setVehicle] = useState('');
     const [cost, setCost] = useState('');
@@ -19,7 +18,6 @@ const App = () => {
     const [phone, setPhone] = useState('');
     const [components, setComponents] = useState('');
     const [addressFrom, setAddressFrom] = useState('');
-    const [addressTo, setAddressTo] = useState('');
     const [deadline, setDeadline] = useState('');
     const [error, setError] = useState('');
 
@@ -39,21 +37,27 @@ const App = () => {
         closePopup();
     };
 
+    const handleDestinationChange = (index, value) => {
+        const newDestinations = [...destinations];
+        newDestinations[index] = value;
+        setDestinations(newDestinations);
+    };
+
+    const addDestination = () => {
+        setDestinations([...destinations, '']);
+    };
+
     const handleSubmit = (e) => {
         e.preventDefault();
         setError('');
 
-        if (!orderName || !vehicle || !cost || !companyName || !phone || !components || !addressFrom || !addressTo || !deadline) {
+        if (!orderName || !vehicle || !cost || !companyName || !phone || !components || !addressFrom || !deadline) {
             setError('Пожалуйста, заполните все поля.');
             return;
         }
 
-        // Здесь вы можете обработать заказ, например, отправить на сервер
-
-        // Устанавливаем старт и конец для маршрута
-        setStart(addressFrom.split(',').map(Number)); // Пример: '55.751244, 37.618423'
-        setEnd(addressTo.split(',').map(Number)); // Пример: '55.762244, 37.638423'
-
+        // Set the start and multiple destinations
+        setStart(addressFrom.split(',').map(Number));
         setShowMap(true);
     };
 
@@ -62,7 +66,7 @@ const App = () => {
             <Header onMenuClick={togglePopup} />
             {showPopup && <PopupMenu onClose={closePopup} onButtonClick={handleButtonClick} />}
             {showMap ? (
-                <MapPage start={start} end={end} />
+                <MapPage start={start} end={destinations.map(dest => dest.split(',').map(Number))} />
             ) : showTable ? (
                 <TablePage />
             ) : (
@@ -108,10 +112,18 @@ const App = () => {
                             Адрес (откуда):
                             <input type="text" value={addressFrom} onChange={(e) => setAddressFrom(e.target.value)} required />
                         </label>
-                        <label>
-                            Адрес (куда):
-                            <input type="text" value={addressTo} onChange={(e) => setAddressTo(e.target.value)} required />
-                        </label>
+                        <label>Адрес (прибытие):</label>
+                        {destinations.map((destination, index) => (
+                            <input
+                                key={index}
+                                type="text"
+                                value={destination}
+                                onChange={(e) => handleDestinationChange(index, e.target.value)}
+                                placeholder={`Точка прибытия ${index + 1}`}
+                                required
+                            />
+                        ))}
+                        <button type="button" onClick={addDestination}>Добавить точку прибытия</button>
                         <label>
                             Срок:
                             <input type="date" value={deadline} onChange={(e) => setDeadline(e.target.value)} required />
