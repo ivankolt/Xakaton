@@ -50,7 +50,7 @@ const EmployeeForm = ({ onBack }) => {
 
                 <button type="submit">Отправить заявку</button>
             </form>
-            <button onClick={onBack}>Назад</button>
+            <button className="back-button" onClick={onBack}>Назад</button>
         </div>
     );
 };

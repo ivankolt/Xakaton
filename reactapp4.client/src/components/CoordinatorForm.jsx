@@ -1,181 +1,112 @@
 ﻿import React, { useState, useEffect } from 'react';
 import './CoordinatorForm.css'; // Импортируйте стили
 
-const vehicleData = {
-    vehicles: [
-        {
-            id: "vehicle1",
-            type: "Транспортное средство 1",
-            weightLimit: 1500,
-            volumeLimit: 18,
-            status: "На базе"
-        },
-        {
-            id: "vehicle2",
-            type: "Транспортное средство 2",
-            weightLimit: 3000,
-            volumeLimit: 25,
-            status: "На базе"
-        },
-        {
-            id: "vehicle3",
-            type: "Транспортное средство 3",
-            weightLimit: 700,
-            volumeLimit: 4,
-            status: "На базе"
-        }
-    ]
-};
-
-const componentsData = [
-    {
-        id: "component1",
-        name: "Драйверы сервомоторов",
-        warehouse_id: "Warehouses1"
-    },
-    {
-        id: "component2",
-        name: "Платы, микросхемы",
-        warehouse_id: "Warehouses2"
-    },
-    {
-        id: "component3",
-        name: "Вставка",
-        warehouse_id: "Warehouses3"
-    },
-    {
-        id: "component4",
-        name: "Манжеты",
-        warehouse_id: "Warehouses3"
-    },
-    {
-        id: "component5",
-        name: "Блоки (контакт, плата)",
-        warehouse_id: "Warehouses4"
-    },
-    {
-        id: "component6",
-        name: "Шайбы",
-        warehouse_id: "Warehouses3"
-    },
-    {
-        id: "component7",
-        name: "Подшипники",
-        warehouse_id: "Warehouses5"
-    },
-    {
-        id: "component8",
-        name: "Проводка",
-        warehouse_id: "Warehouses2"
-    },
-    {
-        id: "component9",
-        name: "Ремни",
-        warehouse_id: "Warehouses7"
-    },
-    {
-        id: "component10",
-        name: "Винты",
-        warehouse_id: "Warehouses5"
-    },
-    {
-        id: "component11",
-        name: "Разъемы",
-        warehouse_id: "Warehouses2"
-    },
-    {
-        id: "component12",
-        name: "Блоки питания",
-        warehouse_id: "Warehouses4"
-    },
-    {
-        id: "component13",
-        name: "Редукторы",
-        warehouse_id: "Warehouses6"
-    },
-    {
-        id: "component14",
-        name: "Серво-моторы",
-        warehouse_id: "Warehouses1"
-    },
-    {
-        id: "component15",
-        name: "Резисторы, конденсаторы",
-        warehouse_id: "Warehouses8"
-    },
-    {
-        id: "component16",
-        name: "Фитинги",
-        warehouse_id: "Warehouses5"
-    }
-];
-
-const warehousesData = [
-    {
-        id: "Warehouses1",
-        warehouse_coordinates: "Москва",
-        coords: "55.7558, 37.6173"
-    },
-    {
-        id: "Warehouses2",
-        warehouse_coordinates: "Санкт-Петербург",
-        coords: "59.9343, 30.3351"
-    },
-    {
-        id: "Warehouses3",
-        warehouse_coordinates: "Ростов-на-Дону",
-        coords: "47.2226, 39.7182"
-    },
-    {
-        id: "Warehouses4",
-        warehouse_coordinates: "Пятигорск",
-        coords: "44.0393, 42.9180"
-    },
-    {
-        id: "Warehouses5",
-        warehouse_coordinates: "Нижний Новгород",
-        coords: "56.2965, 43.9310"
-    },
-    {
-        id: "Warehouses6",
-        warehouse_coordinates: "Екатеринбург",
-        coords: "56.8389, 60.6057"
-    },
-    {
-        id: "Warehouses7",
-        warehouse_coordinates: "Новосибирск",
-        coords: "55.0084, 82.9346"
-    },
-    {
-        id: "Warehouses8",
-        warehouse_coordinates: "Владивосток",
-        coords: "43.1156, 131.8855"
-    }
-];
 
 const CoordinatorForm = ({ onBack, onDataSubmit }) => {
-    const [data, setData] = useState([{
-        id: 1,
-        vehicle: '',
-        arrivalDate: '',
-        departureDate: '',
-        tripDuration: '',
-        weight: '',
-        applicationDate: '',
-        completionDate: '',
-        component: '',
-        city: '',
-    }]);
+    const [data, setData] = useState([]);
+    const [vehicleData, setVehicleData] = useState([]);
+    const [componentsData, setComponentsData] = useState([]);
+    const [warehousesData, setWarehousesData] = useState([]);
+    const fixedArrivalDate = new Date();
+    const [isSaved, setIsSaved] = useState(false); // Новое состояние для сообщения о сохранении
+    useEffect(() => {
+        fetch('/data.json') // Укажите путь к вашему JSON файлу
+            .then(response => response.json())
+            .then(json => {
+                setVehicleData(json.vehicleData);
+                setComponentsData(json.componentsData);
+                setWarehousesData(json.warehousesData);
+
+                // Восстановление данных из localStorage
+                const savedData = localStorage.getItem('coordinatorData');
+                if (savedData) {
+                    setData(JSON.parse(savedData));
+                } else {
+                    // Инициализируем данные для таблицы
+                    setData([{
+                        id: 1,
+                        vehicle: '',
+                        arrivalDate: '',
+                        departureDate: '',
+                        tripDuration: '',
+                        numberOfRobots: 100,
+                        weight: '',
+                        applicationDate: '',
+                        completionDate: '',
+                        component: '',
+                        city: '',
+                        distance: '',
+                        travelTime: '',
+                        cost: '',
+                        maxWeight: '',
+                    }]);
+                }
+            })
+            .catch(error => console.error('Ошибка при загрузке данных:', error));
+    }, []);
+
+
+
+    const calculateTotalTime = (distance, weight, numberOfRobots, averageSpeed) => {
+        const travelTimeToWarehouse = distance / averageSpeed; // Время в пути до склада в часах
+        const travelTimeBack = travelTimeToWarehouse; // Время в пути обратно аналогично
+        const totalWeight = weight * numberOfRobots;
+
+        // Время загрузки в зависимости от веса
+        let loadingTime = 0;
+        if (totalWeight <= 2000) {
+            loadingTime = 40; // 40 минут
+        } else if (totalWeight <= 5000) {
+            loadingTime = 60; // 60 минут
+        } else {
+            loadingTime = 120; // 120 минут
+        }
+
+        if (totalWeight > 20000) {
+            loadingTime += 720; // Дополнительно 12 часов в минутах
+        }
+
+        // Общее время в пути
+        const totalTimeToWarehouse = travelTimeToWarehouse + loadingTime / 60; // Время в часах
+        const totalTimeBack = travelTimeBack; // Только время в пути обратно
+
+        // Рассчитываем общее время в пути
+        const totalTripTime = totalTimeToWarehouse + totalTimeBack; // Время в часах
+        // Дополнительное время, если общее время в пути (туда и обратно) превышает 12 часов
+        let daysInTrip = Math.ceil(totalTripTime / 24); // Переводим время в дни
+
+        // Добавим дополнительные 12 часов, если общее время в пути когда-либо превышало 12 часов
+        if (totalTripTime > 12) {
+            daysInTrip += 1; // Добавляем еще сутки в случае превышения
+        }
+
+        return daysInTrip; // Возвращаем количество дней
+    };
+
+
+
+
+    const distanceFromChelyabinsk = {
+        "Warehouses1": { "distance": 1700 }, // Москва
+        "Warehouses2": { "distance": 2300 }, // Санкт-Петербург
+        "Warehouses3": { "distance": 2100 }, // Ростов-на-Дону
+        "Warehouses4": { "distance": 1000 }, // Пятигорск
+        "Warehouses5": { "distance": 400 },  // Нижний Новгород
+        "Warehouses6": { "distance": 200 },  // Екатеринбург
+        "Warehouses7": { "distance": 1900 }, // Новосибирск
+        "Warehouses8": { "distance": 4000 }  // Владивосток
+    };
+
+    const averageSpeed = 60; // средняя скорость в км/ч
+    const deliveryCostPerTonKm = 8; // Стоимость доставки 8 руб/т/км
 
     const [employeeData, setEmployeeData] = useState({});
 
-    // Запрашиваем данные из Employee.json
     useEffect(() => {
         fetch('https://localhost:7044/api/Employee')
             .then(response => response.json())
             .then(data => {
                 setEmployeeData(data);
-
                 const applicationDate = data.submissionDate || '';
                 const completionDate = data.endDate || '';
 
@@ -185,6 +116,7 @@ const CoordinatorForm = ({ onBack, onDataSubmit }) => {
                     arrivalDate: '',
                     departureDate: '',
                     tripDuration: '',
+                    numberOfRobots: 100, // Установите начальное значение 100
                     weight: '',
                     applicationDate: applicationDate,
                     completionDate: completionDate,
@@ -194,31 +126,97 @@ const CoordinatorForm = ({ onBack, onDataSubmit }) => {
             })
             .catch(error => console.error('Ошибка при загрузке данных сотрудников:', error));
     }, []);
-
-    const vehicleOptions = vehicleData.vehicles.map(vehicle => vehicle.type);
+    const vehicleOptions = vehicleData.map(vehicle => vehicle.type);
     const componentOptions = componentsData.map(component => component.name);
 
     const handleChange = (index, field, value) => {
         const newData = [...data];
         newData[index][field] = value;
 
-        // Изменяем вес в зависимости от выбранного транспортного средства
-        if (field === 'vehicle') {
-            const selectedVehicle = vehicleData.vehicles.find(v => v.type === value);
-            newData[index].weight = selectedVehicle ? selectedVehicle.weightLimit : '';
-        }
+        // Сохранение данных в localStorage
+        localStorage.setItem('coordinatorData', JSON.stringify(newData));
 
-        // Устанавливаем город в зависимости от выбранного компонента
-        if (field === 'component') {
-            const selectedComponent = componentsData.find(c => c.name === value);
+        // Обработка выбора компонент или количества роботов
+        if (field === 'component' || field === 'numberOfRobots') {
+            const selectedComponent = componentsData.find(c => c.name === newData[index].component);
+            const totalRobots = parseInt(newData[index].numberOfRobots, 10);
             if (selectedComponent) {
+                const totalWeight = selectedComponent.weight * totalRobots;
+                newData[index].weight = totalWeight.toFixed(2);
                 const selectedWarehouse = warehousesData.find(w => w.id === selectedComponent.warehouse_id);
                 newData[index].city = selectedWarehouse ? selectedWarehouse.warehouse_coordinates : '';
+                const distance = distanceFromChelyabinsk[selectedComponent.warehouse_id]?.distance;
+                if (distance) {
+                    newData[index].distance = distance;
+
+                    // Рассчитываем количество дней в поездке
+                    const daysInTrip = calculateTotalTime(distance, selectedComponent.weight, totalRobots, averageSpeed);
+                    newData[index].tripDuration = daysInTrip;
+
+                    // Обновляем время в пути
+                    const travelTime = (distance / averageSpeed).toFixed(2);
+                    newData[index].travelTime = travelTime;
+
+                    // Обновляем стоимость доставки
+                    const deliveryCost = (distance * (totalWeight / 1000) * deliveryCostPerTonKm).toFixed(2);
+                    newData[index].cost = deliveryCost;
+
+                    // Устанавливаем дату отправки на следующий день после оформления заявки
+                    const applicationDate = new Date(newData[index].applicationDate);
+                    if (!isNaN(applicationDate)) {
+                        const departureDate = new Date(applicationDate);
+                        departureDate.setDate(departureDate.getDate() + 1);
+                        newData[index].departureDate = departureDate.toISOString().split('T')[0];
+                    }
+
+                    // Пересчитываем дату привозки на склад
+                    calculateArrivalDate(newData, index);
+                }
+            } else {
+                newData[index].weight = '';
+                newData[index].cost = '';
             }
+        }
+
+        // Обновляем дату заявки и пересчитываем дату отправки
+        if (field === 'applicationDate') {
+            const applicationDate = new Date(value);
+            if (!isNaN(applicationDate)) {
+                const departureDate = new Date(applicationDate);
+                departureDate.setDate(departureDate.getDate() + 1); // Устанавливаем на следующий день
+                newData[index].departureDate = departureDate.toISOString().split('T')[0];
+            }
+        }
+
+        // Обновляем другие поля
+        if (field === 'vehicle') {
+            const selectedVehicle = vehicleData.find(v => v.type === value);
+            if (selectedVehicle) {
+                newData[index].maxWeight = selectedVehicle.weightLimit;
+            }
+        }
+
+        // Проверяем ограничение веса
+        const totalWeight = parseFloat(newData[index].weight) || 0;
+        const maxWeight = parseFloat(newData[index].maxWeight) || 0;
+        if (totalWeight > maxWeight) {
+            alert('Предупреждение: выберите другое транспортное средство!');
         }
 
         setData(newData);
     };
+
+
+    // Функция для расчета даты привозки на склад
+    const calculateArrivalDate = (newData, index) => {
+        const departureDate = new Date(newData[index].departureDate);
+        const daysInTrip = parseInt(newData[index].tripDuration, 10) || 0;
+        const arrivalDateForWarehouse = new Date(departureDate.getTime() + daysInTrip * 24 * 60 * 60 * 1000);
+        newData[index].arrivalDate = arrivalDateForWarehouse.toISOString().split('T')[0];
+    };
+
+
+
 
     const handleAddRow = () => {
         const newRow = {
@@ -227,19 +225,24 @@ const CoordinatorForm = ({ onBack, onDataSubmit }) => {
             arrivalDate: '',
             departureDate: '',
             tripDuration: '',
+            numberOfRobots: 100,
             weight: '',
             applicationDate: employeeData.submissionDate || '',
             completionDate: employeeData.endDate || '',
             component: '',
             city: '',
+            distance: '',
+            travelTime: '',
+            cost: '',
+            maxWeight: '',
         };
         setData([...data, newRow]);
     };
 
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // Создаем файл JSON для скачивания
         const jsonData = JSON.stringify(data, null, 2);
         const blob = new Blob([jsonData], { type: "application/json" });
         const url = URL.createObjectURL(blob);
@@ -250,8 +253,13 @@ const CoordinatorForm = ({ onBack, onDataSubmit }) => {
         a.click();
         document.body.removeChild(a);
 
-        // Передаем данные родительскому компоненту для отображения
         onDataSubmit(data);
+
+        // Устанавливаем состояние сохранения
+        setIsSaved(true);
+        setTimeout(() => {
+            setIsSaved(false); // Скрыть сообщение через 3 секунды
+        }, 3000);
     };
 
     const handleRoute = (index, isFirstRoute) => {
@@ -282,12 +290,17 @@ const CoordinatorForm = ({ onBack, onDataSubmit }) => {
                             <th>Транспортное средство</th>
                             <th>Дата привозки товаров на склад в Челябинск</th>
                             <th>Итоговая дата отправки в рейс</th>
-                            <th>Дней в поездке с учетом неполадок</th>
+                            <th>Дней в поездке</th>
+                            <th>Количество роботов</th>
                             <th>Вес (кг)</th>
+                            <th>Макс. вес (кг)</th>
                             <th>Дата оформления заявки</th>
                             <th>Дата окончания плана по сборкам роботов</th>
                             <th>Комплектующие</th>
                             <th>Город</th>
+                            <th>Километры</th>
+                            <th>Время пути (ч)</th>
+                            <th>Стоимость доставки (руб)</th>
                             <th>Маршрут</th>
                         </tr>
                     </thead>
@@ -312,9 +325,10 @@ const CoordinatorForm = ({ onBack, onDataSubmit }) => {
                                     <input
                                         type="date"
                                         value={item.arrivalDate}
-                                        onChange={(e) => handleChange(index, 'arrivalDate', e.target.value)}
+                                        readOnly // Дата привозки не редактируется вручную
                                     />
                                 </td>
+
                                 <td>
                                     <input
                                         type="date"
@@ -332,10 +346,18 @@ const CoordinatorForm = ({ onBack, onDataSubmit }) => {
                                 <td>
                                     <input
                                         type="number"
+                                        value={item.numberOfRobots}
+                                        onChange={(e) => handleChange(index, 'numberOfRobots', e.target.value)}
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="number"
                                         value={item.weight}
                                         readOnly
                                     />
                                 </td>
+                                <td>{item.maxWeight}</td>
                                 <td>
                                     <input
                                         type="date"
@@ -364,6 +386,9 @@ const CoordinatorForm = ({ onBack, onDataSubmit }) => {
                                     </select>
                                 </td>
                                 <td>{item.city}</td>
+                                <td>{item.distance}</td>
+                                <td>{item.travelTime}</td>
+                                <td>{item.cost}</td>
                                 <td>
                                     <button type="button" onClick={() => handleRoute(index, true)}>На карту (A -> B)</button>
                                     <button type="button" onClick={() => handleRoute(index, false)}>На карту (B -> A)</button>
@@ -372,10 +397,15 @@ const CoordinatorForm = ({ onBack, onDataSubmit }) => {
                         ))}
                     </tbody>
                 </table>
-                <button type="button" onClick={handleAddRow}>Добавить строку</button>
-                <button type="submit">Сохранить данные</button>
+                <button type="button" className="add-row-button" onClick={handleAddRow}>Добавить строку</button>
             </form>
-            <button onClick={onBack}>Назад</button>
+            <div className="button-container">
+                <button type="button" className="back-button" onClick={onBack}>Назад</button>
+                <button type="submit" className="save-button" form="coordinator-form">Сохранить данные</button>
+            </div>
+
+            {isSaved && <div className="saved-message">Данные успешно сохранены! ✅</div>} 
+
         </div>
     );
 };

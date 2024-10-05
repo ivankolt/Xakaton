@@ -52,7 +52,7 @@ const App = () => {
 
 
             {currentForm === 'menu' && <Menu onButtonClick={handleButtonClick} />}
-            {!currentForm && !showPopup && <Menu onButtonClick={handleButtonClick} />} {/* Отображаем выбор пользователя */}
+            {!currentForm  && <Menu onButtonClick={handleButtonClick} />} {/* Отображаем выбор пользователя */}
 
 
         </div>

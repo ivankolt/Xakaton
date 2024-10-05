@@ -4,7 +4,7 @@ import './PopupMenu.css';
 const PopupMenu = ({ onClose, onButtonClick }) => {
     return (
         <div className="popup-menu">
-            <button className="popup-btn" onClick={() => { onButtonClick(1); onClose(); }}>Таблица</button>
+          
             <button className="popup-btn" onClick={() => { onButtonClick(2); onClose(); }}>Сотрудник</button>
             <button className="popup-btn" onClick={() => { onButtonClick(3); onClose(); }}>Координатор</button>
             <button className="popup-btn" onClick={() => { onButtonClick(4); onClose(); }}>Главная</button>

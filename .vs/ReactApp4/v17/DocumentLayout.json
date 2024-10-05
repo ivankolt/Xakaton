@@ -1,42 +1,154 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\",
+  "WorkspaceRootPath": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\coordinatorform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\coordinatorform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\employeeform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\employeeform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\reactapp4.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\reactapp4.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\employeeform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\employeeform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\employeeform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\coordinatorform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\coordinatorform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\coordinatorform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\coordinatorform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\public\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\public\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\employee.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\employee.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\db.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\tablepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\tablepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\tablepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\tablepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\popupmenu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\popupmenu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\popupmenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\popupmenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\mappage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\mappage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\mapcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\mapcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\coordinatorform.1.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\coordinatorform.1.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\reactapp4.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\reactapp4.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\public\\store.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\public\\store.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\db.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\db.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\popupmenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\popupmenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\reactapp4.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\reactapp4.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\reactapp4.client.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\reactapp4.client.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\coordinator_data (2).json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -48,103 +160,23 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\coordinator_data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\tablepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\tablepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\employee.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\employee.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\employeeform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\employeeform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\coordinatorform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\coordinatorform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\models\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\models\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\models\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.server\\reactapp4.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.server\\reactapp4.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{34A04456-54C6-476F-A833-00488A624395}|ReactApp4.Server\\ReactApp4.Server.csproj|solutionrelative:reactapp4.server\\reactapp4.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\popupmenu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\popupmenu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\tablepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\tablepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\mappage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\mappage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\mapcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\mapcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\user\\source\\repos\\consoleapp54\\xakaton\\reactapp4.client\\src\\components\\mapapp.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|c:\\users\\robotcomp.ru\\source\\repos\\reactapp4\\reactapp4.client\\src\\components\\mapapp.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{8380EAB5-1F8A-4510-BFED-F5279ED433B0}|reactapp4.client\\reactapp4.client.esproj|solutionrelative:reactapp4.client\\src\\components\\mapapp.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
@@ -155,7 +187,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -167,21 +199,17 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CoordinatorForm.jsx",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\CoordinatorForm.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\CoordinatorForm.jsx",
               "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\CoordinatorForm.jsx",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\CoordinatorForm.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\CoordinatorForm.jsx",
               "RelativeToolTip": "reactapp4.client\\src\\components\\CoordinatorForm.jsx",
-              "ViewState": "AgIAAGUBAAAAAAAAAAAAAHMBAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAAAJ0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-10-04T11:06:49.103Z",
               "EditorCaption": ""
@@ -189,23 +217,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Header.jsx",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\Header.jsx",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\Header.jsx",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\Header.jsx",
-              "RelativeToolTip": "reactapp4.client\\src\\components\\Header.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T10:40:23.345Z",
-              "EditorCaption": ""
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\index.css",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\index.css",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\index.css",
+              "RelativeToolTip": "reactapp4.client\\src\\index.css",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-04T10:50:44.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "Employee.json",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\Employee.json",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\Employee.json",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\Employee.json",
+              "RelativeToolTip": "reactapp4.client\\src\\Employee.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T03:51:08.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\index.html",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\index.html",
               "RelativeDocumentMoniker": "reactapp4.client\\index.html",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\index.html",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\index.html",
               "RelativeToolTip": "reactapp4.client\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -214,245 +253,424 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\App.css",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\App.css",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\App.css",
+              "RelativeToolTip": "reactapp4.client\\src\\App.css",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAHwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-04T07:14:07.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "data.json",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\public\\data.json",
+              "RelativeDocumentMoniker": "reactapp4.client\\public\\data.json",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\public\\data.json",
+              "RelativeToolTip": "reactapp4.client\\public\\data.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T12:33:23.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoordinatorForm.css",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\CoordinatorForm.css",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\CoordinatorForm.css",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\CoordinatorForm.css",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\CoordinatorForm.css",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-04T11:09:12.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EmployeeForm.css",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\EmployeeForm.css",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\EmployeeForm.css",
               "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\EmployeeForm.css",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\EmployeeForm.css",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\EmployeeForm.css",
               "RelativeToolTip": "reactapp4.client\\src\\components\\EmployeeForm.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-04T11:08:44.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\index.css",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\index.css",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\index.css",
-              "RelativeToolTip": "reactapp4.client\\src\\index.css",
-              "ViewState": "AgIAABQAAAAAAAAAAAAUwB4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T10:50:44.803Z",
+              "DocumentIndex": 0,
+              "Title": "EmployeeForm.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\EmployeeForm.jsx",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\EmployeeForm.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\EmployeeForm.jsx",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\EmployeeForm.jsx",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswCEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-04T11:06:27.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "coordinator_data.json",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\coordinator_data.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\coordinator_data.json",
-              "ToolTip": "C:\\Users\\User\\Downloads\\coordinator_data.json",
-              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\coordinator_data.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-05T06:14:07.591Z",
-              "EditorCaption": ""
+              "Title": "TablePage.css",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\TablePage.css",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\TablePage.css",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\TablePage.css",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\TablePage.css",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-04T10:50:31.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\App.jsx",
+              "RelativeToolTip": "reactapp4.client\\src\\App.jsx",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-04T07:14:07.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PopupMenu.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\PopupMenu.jsx",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\PopupMenu.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\PopupMenu.jsx",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\PopupMenu.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-04T10:50:28.618Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "coordinator_data (2).json",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\coordinator_data (2).json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\coordinator_data (2).json",
-              "ToolTip": "C:\\Users\\User\\Downloads\\coordinator_data (2).json",
-              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\coordinator_data (2).json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-05T06:17:33.176Z",
-              "EditorCaption": ""
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\Header.jsx",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\Header.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\Header.jsx",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\Header.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-04T10:40:23.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "TablePage.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\TablePage.jsx",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\TablePage.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\TablePage.jsx",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\TablePage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-04T07:04:46.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Menu.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\Menu.jsx",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\Menu.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\Menu.jsx",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\Menu.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-04T10:45:18.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Menu.css",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\Menu.css",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\Menu.css",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\Menu.css",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\Menu.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-04T10:45:09.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PopupMenu.css",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\PopupMenu.css",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\PopupMenu.css",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\PopupMenu.css",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\PopupMenu.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-04T10:50:25.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MapPage.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\MapPage.jsx",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\MapPage.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\MapPage.jsx",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\MapPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-04T07:08:43.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MapComponent.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\MapComponent.jsx",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\MapComponent.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\MapComponent.jsx",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\MapComponent.jsx",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvzYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-04T07:13:52.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CoordinatorForm.1.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\CoordinatorForm.1.jsx",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\CoordinatorForm.1.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\CoordinatorForm.1.jsx",
+              "RelativeToolTip": "reactapp4.client\\src\\components\\CoordinatorForm.1.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-05T13:21:39.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "ReactApp4.Server.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\ReactApp4.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\ReactApp4.Server.csproj",
               "RelativeDocumentMoniker": "ReactApp4.Server\\ReactApp4.Server.csproj",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\ReactApp4.Server.csproj",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\ReactApp4.Server.csproj",
               "RelativeToolTip": "ReactApp4.Server\\ReactApp4.Server.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-05T03:48:44.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T03:48:44.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RouteController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\RouteController.cs",
-              "RelativeDocumentMoniker": "ReactApp4.Server\\RouteController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\RouteController.cs",
-              "RelativeToolTip": "ReactApp4.Server\\RouteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T13:48:15.37Z",
-              "EditorCaption": ""
+              "DocumentIndex": 23,
+              "Title": "store.json",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\public\\store.json",
+              "RelativeDocumentMoniker": "reactapp4.client\\public\\store.json",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\public\\store.json",
+              "RelativeToolTip": "reactapp4.client\\public\\store.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T12:53:21.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ReactApp4.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ReactApp4.Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T03:59:30.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "reactapp4.client.esproj",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\reactapp4.client.esproj",
+              "RelativeDocumentMoniker": "reactapp4.client\\reactapp4.client.esproj",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\reactapp4.client.esproj",
+              "RelativeToolTip": "reactapp4.client\\reactapp4.client.esproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-05T07:42:23.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Controllers\\EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "ReactApp4.Server\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "ReactApp4.Server\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T03:47:39.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PopupMenu.css",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\PopupMenu.css",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\PopupMenu.css",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\PopupMenu.css",
-              "RelativeToolTip": "reactapp4.client\\src\\components\\PopupMenu.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T10:50:25.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DB.json",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\DB.json",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\DB.json",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\DB.json",
-              "RelativeToolTip": "reactapp4.client\\src\\DB.json",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAADEAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\package.json",
+              "RelativeDocumentMoniker": "reactapp4.client\\package.json",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\package.json",
+              "RelativeToolTip": "reactapp4.client\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-04T12:46:07.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T07:44:14.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "coordinator_data (1).json",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\coordinator_data (1).json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\coordinator_data (1).json",
-              "ToolTip": "C:\\Users\\User\\Downloads\\coordinator_data (1).json",
-              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\coordinator_data (1).json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-05T06:15:33.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "ReactApp4.Server\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "ReactApp4.Server\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T03:48:01.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Employee.json",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\Employee.json",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\Employee.json",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\Employee.json",
-              "RelativeToolTip": "reactapp4.client\\src\\Employee.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-05T03:51:08.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Menu.css",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\Menu.css",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\Menu.css",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\Menu.css",
-              "RelativeToolTip": "reactapp4.client\\src\\components\\Menu.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T10:45:09.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TablePage.jsx",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\TablePage.jsx",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\TablePage.jsx",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\TablePage.jsx",
-              "RelativeToolTip": "reactapp4.client\\src\\components\\TablePage.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T07:04:46.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Startup.cs",
-              "RelativeDocumentMoniker": "ReactApp4.Server\\Startup.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Startup.cs",
-              "RelativeToolTip": "ReactApp4.Server\\Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T03:49:03.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "ReactApp4.Server\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\WeatherForecast.cs",
-              "RelativeToolTip": "ReactApp4.Server\\WeatherForecast.cs",
+              "DocumentIndex": 29,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ReactApp4.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\appsettings.Development.json",
+              "RelativeToolTip": "ReactApp4.Server\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T03:59:18.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ReactApp4.Server\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ReactApp4.Server\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-05T03:59:30.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T07:46:28.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Program.cs",
-              "RelativeDocumentMoniker": "ReactApp4.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Program.cs",
-              "RelativeToolTip": "ReactApp4.Server\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T03:59:12.501Z",
-              "EditorCaption": ""
+              "DocumentIndex": 26,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\package-lock.json",
+              "RelativeDocumentMoniker": "reactapp4.client\\package-lock.json",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\package-lock.json",
+              "RelativeToolTip": "reactapp4.client\\package-lock.json",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T07:59:11.722Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "DB.json",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\DB.json",
+              "RelativeDocumentMoniker": "reactapp4.client\\src\\DB.json",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\DB.json",
+              "RelativeToolTip": "reactapp4.client\\src\\DB.json",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAFAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-04T12:46:07.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ReactApp4.Server.http",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\ReactApp4.Server.http",
+              "RelativeDocumentMoniker": "ReactApp4.Server\\ReactApp4.Server.http",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\ReactApp4.Server.http",
+              "RelativeToolTip": "ReactApp4.Server\\ReactApp4.Server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-10-05T07:46:39.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "coordinator_data.json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\coordinator_data.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Downloads\\coordinator_data.json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\coordinator_data.json",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\coordinator_data.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T06:14:07.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "coordinator_data (2).json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\coordinator_data (2).json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Downloads\\coordinator_data (2).json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\coordinator_data (2).json",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\coordinator_data (2).json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T06:17:33.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RouteController.cs",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\RouteController.cs",
+              "RelativeDocumentMoniker": "ReactApp4.Server\\RouteController.cs",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\RouteController.cs",
+              "RelativeToolTip": "ReactApp4.Server\\RouteController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T13:48:15.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "coordinator_data (1).json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\coordinator_data (1).json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Downloads\\coordinator_data (1).json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\coordinator_data (1).json",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Downloads\\coordinator_data (1).json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T06:15:33.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ReactApp4.Server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ReactApp4.Server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T03:48:01.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Startup.cs",
+              "RelativeDocumentMoniker": "ReactApp4.Server\\Startup.cs",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Startup.cs",
+              "RelativeToolTip": "ReactApp4.Server\\Startup.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T03:49:03.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ReactApp4.Server\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\WeatherForecast.cs",
+              "RelativeToolTip": "ReactApp4.Server\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T03:59:18.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ReactApp4.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Program.cs",
+              "RelativeToolTip": "ReactApp4.Server\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T03:59:12.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "EmployeeData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Models\\EmployeeData.cs",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Models\\EmployeeData.cs",
               "RelativeDocumentMoniker": "ReactApp4.Server\\Models\\EmployeeData.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\Models\\EmployeeData.cs",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\Models\\EmployeeData.cs",
               "RelativeToolTip": "ReactApp4.Server\\Models\\EmployeeData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -460,62 +678,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "EmployeeForm.jsx",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\EmployeeForm.jsx",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\EmployeeForm.jsx",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\EmployeeForm.jsx",
-              "RelativeToolTip": "reactapp4.client\\src\\components\\EmployeeForm.jsx",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T11:06:27.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 40,
               "Title": "Header.css",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\Header.css",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\Header.css",
               "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\Header.css",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\Header.css",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\Header.css",
               "RelativeToolTip": "reactapp4.client\\src\\components\\Header.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T10:40:22.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T10:40:22.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CoordinatorForm.css",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\CoordinatorForm.css",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\CoordinatorForm.css",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\CoordinatorForm.css",
-              "RelativeToolTip": "reactapp4.client\\src\\components\\CoordinatorForm.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T11:09:12.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\App.jsx",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\App.jsx",
-              "RelativeToolTip": "reactapp4.client\\src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T07:14:07.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "CHANGELOG.md",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\CHANGELOG.md",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\CHANGELOG.md",
               "RelativeDocumentMoniker": "ReactApp4.Server\\CHANGELOG.md",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\CHANGELOG.md",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\CHANGELOG.md",
               "RelativeToolTip": "ReactApp4.Server\\CHANGELOG.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
@@ -525,33 +704,32 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\appsettings.json",
               "RelativeDocumentMoniker": "ReactApp4.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\appsettings.json",
               "RelativeToolTip": "ReactApp4.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-05T03:59:09.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "ReactApp4.Server",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\ReactApp4.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\ReactApp4.Server.csproj",
               "RelativeDocumentMoniker": "ReactApp4.Server\\ReactApp4.Server.csproj",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\ReactApp4.Server\\ReactApp4.Server.csproj",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\ReactApp4.Server\\ReactApp4.Server.csproj",
               "RelativeToolTip": "ReactApp4.Server\\ReactApp4.Server.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-05T03:58:59.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T03:58:59.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 43,
               "Title": "main.jsx",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\main.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\main.jsx",
               "RelativeDocumentMoniker": "reactapp4.client\\src\\main.jsx",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\main.jsx",
               "RelativeToolTip": "reactapp4.client\\src\\main.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
@@ -559,87 +737,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\App.css",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\App.css",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\App.css",
-              "RelativeToolTip": "reactapp4.client\\src\\App.css",
-              "ViewState": "AgIAAGEAAAAAAAAAAIBJwHwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T07:14:07.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "TablePage.css",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\TablePage.css",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\TablePage.css",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\TablePage.css",
-              "RelativeToolTip": "reactapp4.client\\src\\components\\TablePage.css",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T10:50:31.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "PopupMenu.jsx",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\PopupMenu.jsx",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\PopupMenu.jsx",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\PopupMenu.jsx",
-              "RelativeToolTip": "reactapp4.client\\src\\components\\PopupMenu.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T10:50:28.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Menu.jsx",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\Menu.jsx",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\Menu.jsx",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\Menu.jsx",
-              "RelativeToolTip": "reactapp4.client\\src\\components\\Menu.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T10:45:18.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "MapComponent.jsx",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\MapComponent.jsx",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\MapComponent.jsx",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\MapComponent.jsx",
-              "RelativeToolTip": "reactapp4.client\\src\\components\\MapComponent.jsx",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvzYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T07:13:52.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "MapApp.jsx",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\MapApp.jsx",
+              "DocumentMoniker": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\MapApp.jsx",
               "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\MapApp.jsx",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\MapApp.jsx",
+              "ToolTip": "C:\\Users\\RobotComp.ru\\source\\repos\\ReactApp4\\reactapp4.client\\src\\components\\MapApp.jsx",
               "RelativeToolTip": "reactapp4.client\\src\\components\\MapApp.jsx",
               "ViewState": "AgIAABsAAAAAAAAAAIBJwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-10-04T07:12:47.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "MapPage.jsx",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\MapPage.jsx",
-              "RelativeDocumentMoniker": "reactapp4.client\\src\\components\\MapPage.jsx",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ConsoleApp54\\Xakaton\\reactapp4.client\\src\\components\\MapPage.jsx",
-              "RelativeToolTip": "reactapp4.client\\src\\components\\MapPage.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-04T07:08:43.65Z"
             }
           ]
         }

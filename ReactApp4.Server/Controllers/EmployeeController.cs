@@ -20,7 +20,7 @@ namespace YourNamespace.Controllers // Замените на ваше прост
 
             // Сохраняем данные в JSON-файл
             var json = JsonSerializer.Serialize(data);
-            var filePath = @"C:\Users\User\source\repos\ConsoleApp54\Xakaton\reactapp4.client\src\Employee.json"; // Обновленный путь
+            var filePath = @"C:\Users\RobotComp.ru\source\repos\ReactApp4\reactapp4.client\src\Employee.json"; // Обновленный путь
 
             // Убедитесь, что директория существует
             var directory = Path.GetDirectoryName(filePath);
@@ -38,7 +38,7 @@ namespace YourNamespace.Controllers // Замените на ваше прост
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var filePath = @"C:\Users\User\source\repos\ConsoleApp54\Xakaton\reactapp4.client\src\Employee.json"; // Путь к файлу
+            var filePath = @"C:\Users\RobotComp.ru\source\repos\ReactApp4\reactapp4.client\src\Employee.json"; // Путь к файлу
             if (!System.IO.File.Exists(filePath))
             {
                 return NotFound("Employee file not found.");

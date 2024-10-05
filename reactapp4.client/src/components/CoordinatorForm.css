@@ -1,47 +1,99 @@
 /* CoordinatorForm.css */
 .coordinator-form {
     padding: 20px;
-   
     border-radius: 5px;
-   
+    background-color: white; /* Светлый фон формы */
 }
 
-.coordinator-form h2 {
-    margin-bottom: 15px; /* Отступ снизу */
+    .coordinator-form h2 {
+        margin-bottom: 20px; /* Увеличенный отступ снизу */
+        font-family: 'Arial', sans-serif; /* Шрифт заголовка */
+        color: #333; /* Цвет текста заголовка */
+    }
+
+    .coordinator-form table {
+        width: 100%;
+        border-collapse: collapse; /* Убираем двойные границы */
+        margin-bottom: 20px; /* Отступ снизу таблицы */
+    }
+
+    .coordinator-form th, .coordinator-form td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left; /* Выравнивание текста по левому краю */
+    }
+
+    .coordinator-form th {
+        background-color: #007bff; /* Синий фон заголовков */
+        color: white; /* Цвет текста заголовков */
+        cursor: pointer; /* Указатель при наведении */
+    }
+
+    .coordinator-form tr:hover {
+        background-color: #f1f1f1; /* Светлый фон строки при наведении */
+    }
+
+    .coordinator-form input, .coordinator-form select {
+        width: 100%;
+        padding: 6px;
+        margin: 5px 0 15px; /* Отступы сверху и снизу */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: 'Arial', sans-serif; /* Шрифт для ввода */
+    }
+
+    .coordinator-form th:nth-child(6) { /* "Вес" */
+        width: 100px; /* Увеличиваем ширину до 100px */
+    }
+
+    .coordinator-form button {
+        background-color: #007bff; /* Синий фон кнопки */
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Arial', sans-serif; /* Шрифт для кнопки */
+        transition: background-color 0.3s; /* Плавный переход */
+    }
+.saved-message {
+    background-color: #d4edda; /* Светлый зеленый фон */
+    color: #155724; /* Темно-зеленый цвет текста */
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #c3e6cb; /* Зеленая рамка */
+    border-radius: 5px; /* Скругленные углы */
+    font-weight: bold; /* Жирный текст */
 }
 
-.coordinator-form table {
-    width: 100%;
-    border-collapse: collapse; /* Убираем двойные границы */
+
+        /* Стиль для кнопок при наведении */
+        .coordinator-form button:hover {
+            background-color: #0056b3; /* Темно-синий фон кнопки при наведении */
+        }
+
+    .coordinator-form .add-row-button {
+        margin-bottom: 10px; /* Отступ снизу для кнопки добавления строки */
+    }
+
+    .coordinator-form .back-button {
+        background-color: #6c757d; /* Серый фон кнопки "Назад" */
+    }
+
+        .coordinator-form .back-button:hover {
+            background-color: #0056b3; /* Темно-синий фон кнопки "Назад" при наведении */
+        }
+
+.button-container {
+    display: flex; /* Используем flexbox для размещения кнопок */
+    justify-content: space-between; /* Размещаем кнопки по краям */
+    margin-top: 20px; /* Отступ сверху для кнопок */
 }
 
-.coordinator-form th, .coordinator-form td {
-    border: 1px solid #ddd;
-    padding: 8px;
+.coordinator-form .save-button {
+    background-color: #007bff; /* Синий фон кнопки "Сохранить данные" */
 }
 
-.coordinator-form th {
-    background-color: #007bff; /* Синий фон заголовков */
-    color: white; /* Цвет текста заголовков */
-}
-
-.coordinator-form input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.coordinator-form button {
-    background-color: #007bff; /* Синий фон кнопки */
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.coordinator-form button:hover {
-    background-color: #0056b3; /* Темно-синий фон кнопки при наведении */
-}
+    .coordinator-form .save-button:hover {
+        background-color: #0056b3; /* Темно-синий фон кнопки "Сохранить данные" при наведении */
+    }

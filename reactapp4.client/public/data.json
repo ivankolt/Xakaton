@@ -1,0 +1,165 @@
+{
+  "vehicleData": [
+    {
+      "id": "vehicle1",
+      "type": "Транспортное средство 1",
+      "weightLimit": 700,
+      "volumeLimit": 4,
+      "status": "На базе"
+    },
+    {
+      "id": "vehicle2",
+      "type": "Транспортное средство 2",
+      "weightLimit": 1500,
+      "volumeLimit": 18,
+      "status": "На базе"
+    },
+    {
+      "id": "vehicle3",
+      "type": "Транспортное средство 3",
+      "weightLimit": 3000,
+      "volumeLimit": 25,
+      "status": "На базе"
+    }
+  ],
+  "componentsData": [
+    {
+      "id": "component1",
+      "name": "Драйверы сервомоторов",
+      "warehouse_id": "Warehouses1",
+      "weight": 10.80
+    },
+    {
+      "id": "component2",
+      "name": "Платы, микросхемы",
+      "warehouse_id": "Warehouses2",
+      "weight": 0.0175
+    },
+    {
+      "id": "component3",
+      "name": "Вставка",
+      "warehouse_id": "Warehouses3",
+      "weight": 0.35416
+    },
+    {
+      "id": "component4",
+      "name": "Манжеты",
+      "warehouse_id": "Warehouses3",
+      "weight": 0.1005
+    },
+    {
+      "id": "component5",
+      "name": "Блоки (контакт, плата)",
+      "warehouse_id": "Warehouses4",
+      "weight": 0.0023
+    },
+    {
+      "id": "component6",
+      "name": "Шайбы",
+      "warehouse_id": "Warehouses3",
+      "weight": 0.738
+    },
+    {
+      "id": "component7",
+      "name": "Подшипники",
+      "warehouse_id": "Warehouses5",
+      "weight": 2.5
+    },
+    {
+      "id": "component8",
+      "name": "Проводка",
+      "warehouse_id": "Warehouses2",
+      "weight": 36.806
+    },
+    {
+      "id": "component9",
+      "name": "Ремни",
+      "warehouse_id": "Warehouses7",
+      "weight": 0.015
+    },
+    {
+      "id": "component10",
+      "name": "Винты",
+      "warehouse_id": "Warehouses5",
+      "weight": 0.2225
+    },
+    {
+      "id": "component11",
+      "name": "Разъемы",
+      "warehouse_id": "Warehouses2",
+      "weight": 0.1104
+    },
+    {
+      "id": "component12",
+      "name": "Блоки питания",
+      "warehouse_id": "Warehouses4",
+      "weight": 3.15
+    },
+    {
+      "id": "component13",
+      "name": "Редукторы",
+      "warehouse_id": "Warehouses6",
+      "weight": 10.5
+    },
+    {
+      "id": "component14",
+      "name": "Серво-моторы",
+      "warehouse_id": "Warehouses1",
+      "weight": 0.6
+    },
+    {
+      "id": "component15",
+      "name": "Резисторы, конденсаторы",
+      "warehouse_id": "Warehouses8",
+      "weight": 0.02166
+    },
+    {
+      "id": "component16",
+      "name": "Фитинги",
+      "warehouse_id": "Warehouses5",
+      "weight": 0.75
+    }
+  ],
+  "warehousesData": [
+    {
+      "id": "Warehouses1",
+      "warehouse_coordinates": "Москва",
+      "coords": "55.7558, 37.6173"
+    },
+    {
+      "id": "Warehouses2",
+      "warehouse_coordinates": "Санкт-Петербург",
+      "coords": "59.9343, 30.3351"
+    },
+    {
+      "id": "Warehouses3",
+      "warehouse_coordinates": "Ростов-на-Дону",
+      "coords": "47.2226, 39.7182"
+    },
+    {
+      "id": "Warehouses4",
+      "warehouse_coordinates": "Пятигорск",
+      "coords": "44.0393, 42.9180"
+    },
+    {
+      "id": "Warehouses5",
+      "warehouse_coordinates": "Нижний Новгород",
+      "coords": "56.2965, 43.9310"
+    },
+    {
+      "id": "Warehouses6",
+      "warehouse_coordinates": "Екатеринбург",
+      "coords": "56.8389, 60.6057"
+    },
+    {
+      "id": "Warehouses7",
+      "warehouse_coordinates": "Новосибирск",
+      "coords": "55.0084, 82.9346"
+    },
+    {
+      "id": "Warehouses8",
+      "warehouse_coordinates": "Владивосток",
+      "coords": "43.1156, 131.8855"
+    }
+  ]
+}

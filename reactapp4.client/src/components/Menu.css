@@ -2,6 +2,9 @@
     text-align: center;
     padding: 20px;
 }
+h1{
+    font-size: 30px;
+}
 
 .menu-buttons {
     display: flex;
