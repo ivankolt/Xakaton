@@ -7,6 +7,7 @@ import CoordinatorForm from './components/CoordinatorForm';
 import './App.css';
 import Menu from './components/Menu';
 
+
 const App = () => {
     const [showPopup, setShowPopup] = useState(false);
     const [currentForm, setCurrentForm] = useState(null); // Новое состояние для текущей формы
