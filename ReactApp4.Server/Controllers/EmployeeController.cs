@@ -33,5 +33,27 @@ namespace YourNamespace.Controllers // Замените на ваше прост
 
             return Ok(new { Message = "Success" });
         }
+
+
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var filePath = @"C:\Users\User\source\repos\ConsoleApp54\Xakaton\reactapp4.client\src\Employee.json"; // Путь к файлу
+            if (!System.IO.File.Exists(filePath))
+            {
+                return NotFound("Employee file not found.");
+            }
+
+            var jsonData = await System.IO.File.ReadAllTextAsync(filePath);
+            var data = JsonSerializer.Deserialize<EmployeeData>(jsonData);
+
+            if (data == null)
+            {
+                return NoContent(); // Если файл пустой или неверен
+            }
+
+            return Ok(data);
+        }
+
     }
 }
